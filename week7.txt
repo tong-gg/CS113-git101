@@ -1,0 +1,19 @@
+---- Week 7 ---- Git
+- ใน cmd สร้าง directory ใช้คำสั่ง mkdir *dir_name*
+- ดูรายการใช้ ls, เปลี่ยนตำแหน่งใช้คำสั่ง cd
+- cd .. กลับไป dir ก่อนหน้า
+- git ไว้ใช้พัฒนาซอฟต์แวร์เป็นทีมได้นะ
+- สร้าง git repository ใช้คำสั่ง git init ใน directory น้า จะได้ .git เป็น hidden directory ห้ามแตะต้องเด็ดขาด!!
+- อย่าลืมตรวจสอบสถานะไฟล์ก่อนเอาขึ้น stage ใช้คำสั่ง git status
+- git add *file_name เอาไฟล์ขึ้น stage เตรียม commit
+- อย่าลืมตั้งค่าชื่อกับอีเมลที่จะใช้ commit ก่อน git config user.name "your name", git config user.email "youremail@ku.th"
+- เครื่องส่วนตัวใช้คำสั่ง global ไปเลย แบบนี้ git config --global user.name
+                           git config --global user.email
+- เครื่อง public ห้ามใช้นะ อย่าลืมมเอาอออกด้วย ไปเอาชื่อกับเมลออกใน control panel เลือก creditial manage
+- git commit ห้ามลืม -m ไม่งั้นจะไปอีกมิตินึง -m คือบอกว่าเราทำอะไรกับไฟล์ไว้  คล้ายๆหมายเหตุ ต้อง commit ทุกครั้งนะ
+- ดู checkpoint ใช้ git log adog (-- all --decorate --oneline --graph) บอกได้ว่าทำอะไรกับไฟล์ไว้ใน checkpoint นี้
+- เชื่อมต่อเข้ากับเซิร์ฟเวอร์ของ git hub ดูคำสั่งในหน้าเว็บหลังจาก crete respo ได้เลย
+- เวลาอัพไฟล์ขึ้น github ใช้ git push -u origin master
+- เอา checkpoint เก่ากลับมาทำงานได้นะ เช่น ถ้าลบอะไรไปแล้วจะเอากลับมาทำใหม่ ให้ไปเอา checkpoint ก่อนที่จะลบข้อมูลมาใช้
+คำสั่ง git checkout <commit-id> <filename>
+เอาไฟล์จาก github ลงเครื่องเราใช้ git clone https://.............
