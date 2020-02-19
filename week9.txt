@@ -1,0 +1,23 @@
+Week 9 - Git Branch
+- Git branch คือการทำงาานแบบแยกย่อยออกมา ไม่ให้งานปนกัน แล้วนำมารวมกันทีหลังผ่าน git merge
+- สร้าง branch ใหม่ขึ้นมาซึ่งเราจะทำงานใน branch นี้แล้วนำไปรวมกับ branch master
+- คำสั่งในการสร้าง branch ; git branch <branch-name>
+- git branch ตรวจสอบดูว่ามี branch อะไรบ้าง
+- เปลี่ยน branch ด้วยคำสั่ง git checkout <branch-name>
+
+Conflict คือการที่แก้ไฟล์งานเดียวกัน บรรทัดเดียวกัน เมื่อรวมกันแล้ว git ไม่รู้ว่าจะใช้ไฟล์ไหนดี จึงเกิด conflict 
+ให้เลือกว่าบรรทัดไหนจะอยู่หรือจะไป หากแก้ไขเสร็จแล้วให้ add แล้ว commit ไฟล์ไปใหม่
+เช่นกับเดียว การ pull แล้วเกิด conflict ให้แก้ไขไฟล์ที่เกิด conflict ก่อน แล้วจึง commit ไฟล์ไปใหม่
+
+การ Merge Branch คือการรวม branch เข้าด้วยกัน
+- Commit ไฟล์ต่างๆ ให้เรียบร้อย แล้ว push แต่ละ branch ขึ้น server ให้หมด
+- เปลี่ยน checkout ไปที่ master เพื่อจะรวมไฟล์จาก branch ที่เราต้องการเข้ามาใน branch master
+- **directory ......... <master>
+    git merge <branch-name> จะรวม branch ที่เราเลือกเข้ากับ branch master
+- **ถ้าไม่มี conflict git จะสร้าง commit ของการ merge ครั้งนั้นไปเลย merge เสร็จแล้วไฟล์จะไปอยู่ใน branch เดียวกันทั้งหมด
+- push branch master ขึ้น sever เสร็จแล้วจ้า
+
+การ Pull คือ การดึงข้อมูลที่ commit ใหม่ๆ มาลงไว้ที่เครื่อง เช่น push file1.txt ขึ้น server โดย user2
+เมื่อใช้คำสั่ง pull จะดึงไฟล์จากการ push ล่าสุดลงมาที่เครื่อง local
+- ใช้คำสั่ง git pull origin <branch-name>
+
