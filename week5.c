@@ -21,7 +21,7 @@ int main()
     //int *ptr = &x; //ประกาศตัวแปร pointer
     //int *arrPtr;
     //arrPtr = number; //เรียกตัวแปร pointer ไม่ต้องมี * แต่ตอนประกาศตัวแปรต้องมี, 0x00
-    //arrPtr += 3; // บวกค่า address ตามขนาดของ data type 
+    //arrPtr += 3; // บวกค่า address ตามขนาดของ data type  
     //*arrPtr += 3; // บวกค่า 4
     //printf("arrPtr = %p, *arrptr = %d\n", arrPtr, *arrPtr);
     /*int number[] = {1, 2, 3, 4, 5, 6};
