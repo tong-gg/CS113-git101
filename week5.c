@@ -8,7 +8,7 @@ int main()
     //printf("Reference of x (Address of x) = %lu\n", &x);
     //printf("Reference of x (Address of x) = %p\n", &x); // %p ได้เลขฐานสิบหก ไปฝึกบวกลบเลขฐานด้วยน้า
 
-    //Start Lab Lecture Week 5
+    //Start Lab Lecture Week 5 
     //int number[] = {1, 2, 3, 4, 5, 6}; //initializer{} ระบุว่าอาเรย์นี้มีหก
     //int number[100];
     //int number[100] = {1, 2, 3, 4, 5, 6}; //กำหนดค่าเริ่มต้น
