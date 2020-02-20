@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int x = 100; //คอมจำ address คนจำ x
+    int x = 100; //คอมจำ address คนจำ x 
     int q = 0144; // ฐานแปด
     int w = 0x64; //ฐานสิบหก
     //printf("x = %d\n", x);
