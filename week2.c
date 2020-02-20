@@ -29,7 +29,7 @@ fgets(number, 5, stdin);
     printf("%d\n", count);
     count++; // จะส่งตัวแปรไปก่อนแล้วค่อยบวก
     //++count; // บวกก่อนแล้วค่อยส่ง อันนี้จะเร็วกว่า
-    /*count++ * count - 5 * ทำอันแรกก่อนเพราะเป็น unary เรียงแบบนี้ (), unary 
+    /*count++ * count - 5 * ทำอันแรกก่อนเพราะเป็น unary เรียงแบบนี้ (), unary  
 }*/
 int i = atoi(number);
 for (int j = 0; j <= i; j++){
