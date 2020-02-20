@@ -33,6 +33,6 @@ fgets(number, 5, stdin);
 }*/
 int i = atoi(number);
 for (int j = 0; j <= i; j++){
-    printf("%d\n", j);
+    printf("%d\n", j); 
 }
 }
