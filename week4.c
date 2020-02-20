@@ -27,5 +27,5 @@ default ของ global คือ 0
     if (i == 1){
         return 1;
     }
-    return i*fac(i-1);
+    return i*fac(i-1); 
 } */
