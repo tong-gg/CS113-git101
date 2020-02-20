@@ -3,7 +3,7 @@
 int x = 1000; //ตัวแปร Global อยู่ตรงนี้น้า
 int addTen(int x) //Function Prototype, function  signature
 {   
-    x += 10;    //Function Body
+    x += 10;    //Function Body 
     return x;
 }
 int addTwenty(); //เดี๋ยวจะมีฟังก์ชันตัวนึงนะ รีเทิร์นเป็น int นะ แต่รอก่อนนะ เด๊่ยวมาแป๊บนึง
