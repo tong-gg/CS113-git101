@@ -48,6 +48,6 @@ int main(){
         printf("string is equal");
     }
     else{
-        printf("string is not equal");
+        printf("string is not equal"); 
     }
 }
