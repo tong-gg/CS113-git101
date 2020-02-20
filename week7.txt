@@ -13,7 +13,7 @@
 - git commit ห้ามลืม -m ไม่งั้นจะไปอีกมิตินึง -m คือบอกว่าเราทำอะไรกับไฟล์ไว้  คล้ายๆหมายเหตุ ต้อง commit ทุกครั้งนะ
 - ดู checkpoint ใช้ git log adog (-- all --decorate --oneline --graph) บอกได้ว่าทำอะไรกับไฟล์ไว้ใน checkpoint นี้
 - เชื่อมต่อเข้ากับเซิร์ฟเวอร์ของ git hub ดูคำสั่งในหน้าเว็บหลังจาก crete respo ได้เลย
-- เวลาอัพไฟล์ขึ้น github ใช้ git push -u origin master
+- เวลาอัพไฟล์ขึ้น github ใช้ git push -u origin master 
 - เอา checkpoint เก่ากลับมาทำงานได้นะ เช่น ถ้าลบอะไรไปแล้วจะเอากลับมาทำใหม่ ให้ไปเอา checkpoint ก่อนที่จะลบข้อมูลมาใช้
 คำสั่ง git checkout <commit-id> <filename>
 เอาไฟล์จาก github ลงเครื่องเราใช้ git clone https://.............
