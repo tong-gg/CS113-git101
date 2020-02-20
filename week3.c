@@ -42,7 +42,7 @@ int main(){
     char last_name[20] = "Boonsimma";
     strcat(first_name, last_name); //ต่อสตริงจาก last_nane -> first_name
     printf("%s", first_name); */
-    char str_a[] = "Patipan"; // strcmp compare string ว่าเท่ากันหรือไม่ ถ้าเท่ากันจะรีเทิร์น 0 ออกมา
+    char str_a[] = "Patipan"; // strcmp compare string ว่าเท่ากันหรือไม่ ถ้าเท่ากันจะรีเทิร์น 0 ออกมา 
     char str_b[] = "Patipan";
     if (strcmp(str_a, str_b) == 0){
         printf("string is equal");
