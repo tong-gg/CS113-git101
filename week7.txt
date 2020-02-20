@@ -1,4 +1,4 @@
----- Week 7 ---- Git
+---- Week 7 ---- Git 
 - ใน cmd สร้าง directory ใช้คำสั่ง mkdir *dir_name*
 - ดูรายการใช้ ls, เปลี่ยนตำแหน่งใช้คำสั่ง cd
 - cd .. กลับไป dir ก่อนหน้า
