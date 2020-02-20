@@ -10,7 +10,7 @@ int main(){
         if (isalnum(a[i])){ //นับว่ามี alphanumeric ทั้งหมดกี่ตัว (ตัวเลขและอักขระ)
             count++;
         }
-    printf("No. of alphanumeric in string: %d", count); */
+    printf("No. of alphanumeric in string: %d", count); */ 
     /* for (int i = 0; a[i] != '\0'; i++){
         if (isdigit(a[i])){ //นับตัวเลขในสตริง
             count_digit++;
