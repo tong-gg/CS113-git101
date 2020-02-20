@@ -7,7 +7,7 @@ void addTen(int *arr, int n){ //รับด้วย pointer or array
 }
 
 //Pass by reference
-int addTwenty(int *n){ //ส่งมา เดี๋ยวบวกเพิ่มให้
+int addTwenty(int *n){ //ส่งมา เดี๋ยวบวกเพิ่มให้ 
     *n += 20;
     return 1;
 }
